@@ -34,7 +34,7 @@ body
     text-decoration: none;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 110%;
+    font-size: 120%;
 }
 
 .content:hover
@@ -44,32 +44,20 @@ body
 
 #left-main
 {
-    float: left;
-    width: 15%;
-    padding: 0px;
-    margin: 0px;
+    
 }
 
 #right-main
 {
-    float: right;
-    width: 15%;
-    padding: 0px;
-    margin: 0px;
+    
 }
 
 #middle-main
 {
-    float: center;
-    width: 70%;
-    padding: 0px;
-    margin: 0px;
+    
 }
 
 #foot 
 {
-    float: center;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
+    
 }
