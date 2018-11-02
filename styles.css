@@ -52,6 +52,15 @@ body
     background-color: #111111;
 }
 
+#myface 
+{
+    float: right;
+    align-items: center;
+    width: 80%;
+    box-sizing: content-box;
+    
+}
+
 #middle-main
 {   
     margin-left: 20%;
