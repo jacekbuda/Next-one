@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <!-- zad 1-->
+    <form action="xyz.pl" method="POST">
+        <input type="checkbox" name="123[1]"> 123
+        <input type="checkbox" name="123[2]"> 124
+
+        <input type="file" multiple>
+
+        <textarea readonly>tekstowe</textarea>
+
+        <input type="text" required>
+        <input type="submit" value="Potwierdź">
+    
+    </form>
+    <!-- zad 2 -->
+    <ol type="I">
+        <li>Jacek</li>
+        <li>Buda</li>
+    </ol>
+
+    <!-- zad 3
+        <br> - znacznik enteru. przeniesinia do nowej lini
+        <hr> - pozioma linia wzdłuż strony np do oddizelenia
+        <img> - znaczkink umozliwiający wprowadzenie obrazka
+        <input> - pole tekstowe do wprowadzania danych w formularzu
+        <meta> - znacznik do określania np słów kluczowych, kodowania,
+        autora dokumentu, innych metadat
+    -->
+
+    <!-- zad 4 
+        Podpięcie za plik zewnętrznego:
+        <link rel"stylesheet" type="text/css" href="dawajpliczek.css">
+
+        wpisanie w znaczniku body sekcji <style>:
+            <style 
+            .przykład{
+                font-size: 10px;
+            }
+            </style>
+        
+        oraz dopisanie atrybutu style do znacznika i bezpośrednia oscylacja
+        ( ma największy priorytet)
+    -->
+
+    <!-- zad 5
+        $nbsp; - twarda spacja, nie rozdiezla np którkich wyrazów do rgugiej lini
+        $lt; - znaczek <
+        $gt; - znaczek >
+        $quot; - cudzysłów
+        Aby przeglądarka w niektórych sytyacja poprawnie interprowałą dane znaki 
+        stosujemy właśnie encje
+
+    -->
+
+    <!-- zad 6-->
+
+    <style>
+        table, td {
+            border: 2px solid red;
+            border-collapse: collapse;
+        }
+    </style>
+    <table>
+        <tr>
+            <td>1</td><td colspan="2">1</td><td rowspan="3">1</td><td rowspan="2">1</td>
+        </tr>
+        <tr>
+            <td colspan="3">1</td>
+        </tr>
+        <tr>
+            <td>1</td><td rowspan="3">1</td><td>1</td><td>1</td>
+        </tr>
+        <tr>
+            <td rowspan="2">1</td><td colspan="3">1</td>
+        </tr>
+        <tr>
+            <td colspan="2">1</td><td>1</td>
+        </tr>
+    </table>
+</body>
+</html>
