@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- zad 1-->
+    <form action="xyz.pl" method="GET">
+        <input type="password" disabled>
+
+        <input type="text" name="tak" list="1">
+        <datalist id="1">
+            <option>254</option>
+            <option>254</option>
+        </datalist>
+
+        <input type="radio" name="123">123
+        <input type="radio" name="123">123
+
+        <select name="list" multiple >
+            <option value="COŚ">COŚ</option>
+            <option value="NIC">NIC</option>
+        </select>
+
+        <input type="reset">
+    <!-- zad 2 -->
+    <a href="http://www.zsem.edu.pl/pl" target="_blank"><img src="./images/image1.jpg"></a>
+    
+    <!-- zad 3 -->
+    <ul>
+        <li>Jacek</li>
+        <li>Buda</li>
+    </ul>
+
+    <!-- zad 4
+        <b> - pogrubienie
+        <pre> - wyświetla tekst z wszystkimi znakami białymi dosło: 
+        tak jak jest zapisny tak jest wyświetlany
+        <u> - podkreślenie
+        <i> - tekst pochylony
+        <strong> - pogrubienie tekstu, służy wyróżnienie tego np, wyrazu w kodzie
+    -->
+
+    <!--zad 5
+         Poprzez dołączanie plików zewnętrznych np.
+        <script scr="cos.js"></script>
+
+        stworzenia pola w kodzie:
+        <script>
+            sfsadfasf
+            asdfas
+            asdfasdf
+        </script>
+    -->
+
+    <!-- zad 6 -->
+    <style>
+        table, td {
+            border: 2px solid red;
+            border-collapse: collapse;
+        }
+    </style>
+    <table>
+
+        <tr>
+            <td>1</td><td rowspan="3">1</td><td colspan="2">1</td><td>1</td>
+        </tr>
+        <tr>
+            <td rowspan="2">1</td><td colspan="3">1</td>
+        </tr>
+        <tr>
+            <td >1</td><td rowspan="3">1</td><td rowspan="2">1</td>
+        </tr>
+        <tr>
+            <td colspan="3">1</td>
+        </tr>
+        <tr>
+            <td>1</td><td colspan="2">1</td><td>1</td>
+        </tr>
+
+     </table>
+
+</body>
+</html>
