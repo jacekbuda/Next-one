@@ -52,16 +52,7 @@ body
     background-color: #111111;
 }
 
-#myface 
-{
-    float: right;
-    align-items: center;
-    width: 80%;
-    box-sizing: content-box;
-    
-}
-
-#middle-main
+#middle
 {   
     margin-left: 20%;
     margin-right: 20%;
