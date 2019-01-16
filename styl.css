@@ -1,0 +1,23 @@
+#nav_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav_menu li {
+    width: 150px;
+    float: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+#nav_menu li:hover {
+    background-color: #fefefe;
+}
+
+li a {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
