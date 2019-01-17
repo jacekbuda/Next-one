@@ -59,9 +59,17 @@ nav.nav > div > div > a:hover {
 div#jpg {
     position: relative;
     margin-bottom: 40px;
-    height: auto;
+    height: 576px;
 }
 
 div#jpg > div.background {
-    background: url('')
+    background: url('./images/saske.jpg');
+    background-size: cover;
+    background-position: top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
+
