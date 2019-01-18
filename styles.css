@@ -58,7 +58,6 @@ nav.nav > div > div > a:hover {
 
 div#jpg {
     position: relative;
-    margin-bottom: 40px;
     height: 576px;
 }
 
@@ -71,5 +70,27 @@ div#jpg > div.background {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.blocks {
+    margin: auto 30% auto 30%;
+    color: #010101;
+}
+
+.content_blocks > h3 p {
+    text-align: center;
+}
+
+
+.blocks .content_blocks {
+    text-transform: none;
+    margin-bottom: 60px;
+    border-bottom: 3px solid rgba(43, 206, 52, 0.8)
+}
+
+.content_blocks > h3:target {
+    color: rgba(43, 206, 52, 0.8);
+    font-size: 28px;
+    transition: 0.5s;
 }
 
